@@ -1,0 +1,129 @@
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="Utf-81">
+    <center><h1>Transaction Gateway</h1></center>
+    <link rel="stylesheet" href="styles/tranfers.css">
+    <meta name="viewport" content="width=device-width, initial-scaled=1.0"
+</head>
+<body>
+
+<div class="container">
+
+    <form action="connect.php" method="post">
+
+        <div class="row">
+
+            <div class="col">
+
+                <center><h3 class="title">billing details</h3></center>
+
+                <div class="inputBox">
+                    <span>full name :</span>
+                    <input  type="text" placeholder="Benedick Raj" name="username" required>
+                </div>
+                <div class="inputBox">
+                    <span>email :</span>
+                    <input  type="email" placeholder="example@example.com" name="email" required>
+                </div>
+                <div class="inputBox">
+                    <span>phone no : +91</span>
+                    <input  type="tel" placeholder="11111-11111" name="number" required>
+                </div>
+                <div class="inputBox">
+                    <span>city :</span>
+                    <input  type="text" placeholder="chennai" required>
+                </div>
+                <div class="inputBox">
+                    <span>state :</span>
+                    <input  type="text" placeholder="tamilnadu" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>country :</span>
+                        <input  type="text" placeholder="india" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>zip code :</span>
+                        <input  type="text" placeholder="123 456" required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+
+                <center><h3 class="title">payment</h3></center>
+
+                <div class="inputBox">
+                    <span>cards accepted :</span>
+                    <img src="logos/card_img.png" alt="">
+                </div>
+                <div class="inputBox">
+                    <span>name on card :</span>
+                    <input  type="text" placeholder="mr. Benedick raj" required>
+                </div>
+                <div class="inputBox">
+                    <span>credit card number :</span>
+                    <input  type="number" placeholder="1111-2222-3333-4444" required>
+                </div>
+                <div class="inputBox">
+                    <span>exp month :</span>
+                    <input  type="text" placeholder="january" required>
+                </div>
+
+                <div class="flex">
+                    <div class="inputBox">
+                        <span>exp year :</span>
+                        <input  type="number" placeholder="2022" required>
+                    </div>
+                    <div class="inputBox">
+                        <span>CVV :</span>
+                        <input type="text" placeholder="1234" required>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <span>enter money to send :</span>
+                    <input type="number" placeholder="₹₹" name="money" required>
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+        
+        
+        <div class="button"> 
+           <center><button style="height:50px; size: 15px; background-color: skyblue;" type="submit" onclick="myFunction()">proceed to pay</button></center>
+        </div>
+        <p id="demo"></p>
+        
+        
+    </form>
+    
+
+</div>
+  
+    
+</body>
+
+<script>
+function myFunction(){
+    let text;
+    if(confirm("confirm payment!")==true){
+        text="Your payment is successful!!";
+    }else{
+        text="Payment Cancelled!!";
+    }
+   
+}
+if{(window("project_banking/tranfer.html?"))
+    document.getElementById("demo").innerHTML = text;
+    }
+
+
+
+</script>
+
+      
+
+</html>

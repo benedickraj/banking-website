@@ -1,0 +1,85 @@
+body{
+    background: linear-gradient(135deg, #f403d1,#64b5f6);
+    
+}  
+
+h1 {
+    font-size: 50px;
+    font-family:cursive;
+    color:rgb(214, 200, 200);
+     letter-spacing: 0.2em;
+}
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@357&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@357&family=Lobster&display=swap');
+
+.wrapping{
+    margin:0;
+    padding: 130px;;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:'Josefin Sans', sans-serif;
+}
+.wrapper{
+    margin-top:0%;
+} 
+.wrapper h2{
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin-bottom: 50px;
+    
+} 
+.wrapper{
+    display:flex;
+    text-align: center;
+    width:auto;
+}
+.btn{
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background: #3b1413ec;
+    width: 120px;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#fff;
+    border-radius: 20px; 
+    cursor:pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    -webkit-transition-duration: 0.3s;
+    transition duration: 0.3s;
+    -webkit-transition-property:box-shadow, tranform;
+}
+.btn:hover, .btn:focus, .btn:active{
+    box-shadow:0 0 70px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.alt:hover, .alt:focus, .alt:active{
+    box-shadow:0 0 70px rgba(2, 4, 26, 0.5);
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+.pic{
+    padding: 100px;;
+    box-sizing: border-box;
+
+}
+.why{
+    display:flex;
+    text-align: center;
+    
+}
+.pic p{
+    font-family: 'Allura', cursive;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+.about h3{
+    font-family: 'Playball';
+    font-size: 45px;
+    color:whitesmoke;
+}
